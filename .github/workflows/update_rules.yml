@@ -2,11 +2,11 @@ name: Update WeChat Rules
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0:00 (北京时间早8点) 自动执行
+    - cron: '0 0 * * *'  # 每天北京时间早8点自动执行
   workflow_dispatch:      # 允许手动点击按钮执行
   push:
     paths:
-      - 'convert.py'      # 当你修改脚本时也自动触发
+      - 'convert.py'      # 修改脚本时触发
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/checkout@v3
+        uses: actions/setup-python@v4 # 修正了原配置中的一个小错误
         with:
           python-version: '3.x'
 
@@ -29,5 +29,5 @@ jobs:
       - name: Commit and Push if changed
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Routine Update: WeChat.yaml"
-          file_pattern: 'WeChat.yaml'
+          commit_message: "Routine Update: WeChat.list" # 更新提交信息
+          file_pattern: 'WeChat.list' # 必须改为 .list，或者用 '*.list' 匹配所有
