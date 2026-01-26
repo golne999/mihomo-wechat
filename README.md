@@ -1,2 +1,2 @@
 # mihomo-wechat
-支持wechat的规则
+mihomo支持wechat的规则yaml
