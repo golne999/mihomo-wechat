@@ -143,6 +143,7 @@ IP-CIDR,240d:c000:f000::/44,no-resolve
 IP-CIDR,240d:c000:f020::/43,no-resolve
 IP-CIDR,240d:c000:f040::/42,no-resolve
 IP-CIDR,240d:c000:f0c0::/42,no-resolve
+IP-CIDR,240d:c000:f1c0::/44,no-resolve
 IP-CIDR,240d:c000:f1f0::/44,no-resolve
 IP-CIDR,240d:c010:16::/48,no-resolve
 IP-CIDR,240d:c010:20::/44,no-resolve
