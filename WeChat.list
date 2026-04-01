@@ -8,6 +8,8 @@ DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
 DOMAIN-KEYWORD,wecom
 DOMAIN-KEYWORD,wxwork
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
@@ -15,8 +17,10 @@ DOMAIN-SUFFIX,qlog.cn
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN-SUFFIX,video.qq.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
