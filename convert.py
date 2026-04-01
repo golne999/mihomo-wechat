@@ -16,6 +16,8 @@ custom_rules = [
     "DOMAIN-SUFFIX,qpic.cn",
     "DOMAIN-SUFFIX,qlogo.cn",
     "DOMAIN-SUFFIX,qlog.cn",
+    "DOMAIN-SUFFIX,wxqcloud.qq.com.cn",
+    
     
     # 腾讯通用依赖
     "DOMAIN-SUFFIX,weixin.qq.com",
