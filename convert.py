@@ -16,7 +16,6 @@ custom_rules = [
     "DOMAIN-SUFFIX,qpic.cn",
     "DOMAIN-SUFFIX,qlogo.cn",
     "DOMAIN-SUFFIX,qlog.cn",
-    "DOMAIN-SUFFIX,wxqcloud.qq.com.cn",
     "DOMAIN-SUFFIX,video.qq.com",        # 视频号、腾讯视频全家桶
     "DOMAIN-SUFFIX,gtimg.cn",            # 微信静态资源主干 (朋友圈、小程序图片)
     "DOMAIN-SUFFIX,gtimg.com",           # 腾讯资源主干
@@ -24,6 +23,21 @@ custom_rules = [
     "DOMAIN-SUFFIX,servicewechat.com",   # 小程序核心
     "DOMAIN-SUFFIX,tencent-cloud.net",   # 腾讯云节点加速
     "DOMAIN-SUFFIX,tenpay.com",
+    # --- 腾讯广点通与广告 (微信生态常用) ---
+    "DOMAIN-SUFFIX,gdt.qq.com",
+
+# --- 微信/腾讯直播与实时流 (视频号直播、语音通话) ---
+    "DOMAIN-SUFFIX,tlivesource.com",
+    "DOMAIN-SUFFIX,qlivecdn.com",
+    "DOMAIN-SUFFIX,wxgateway.com",
+    "DOMAIN-SUFFIX,tc.qq.com",
+
+# --- 腾讯云微信专用接口 (补齐 .com 后缀) ---
+    "DOMAIN-SUFFIX,wxqcloud.qq.com",
+    "DOMAIN-SUFFIX,wxqcloud.qq.com.cn",
+
+# --- 文件下载 (补齐 IPv6 根) ---
+    "DOMAIN-SUFFIX,dldir1v6.qq.com",
     
     # 腾讯通用依赖
     "DOMAIN-SUFFIX,weixin.qq.com",
