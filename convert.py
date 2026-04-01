@@ -25,6 +25,20 @@ custom_rules = [
     "DOMAIN-SUFFIX,tenpay.com",
     # --- 腾讯广点通与广告 (微信生态常用) ---
     "DOMAIN-SUFFIX,gdt.qq.com",
+    # --- 微信静态资源与广告 ---
+    "DOMAIN-SUFFIX,ssad.qq.com",        # 微信广告、朋友圈推广图
+    "DOMAIN-SUFFIX,wximg.qq.com",       # 微信通用图片服务器
+    "DOMAIN-SUFFIX,wxamedia.com",       # 微信视频号/媒体预览核心 (1500047674.vodpreview...)
+
+# --- 腾讯云与基础架构 (关键，涵盖了那个 cos 域名) ---
+    "DOMAIN-SUFFIX,myqcloud.com",       # 腾讯云公共存储/加速 (微信小程序/开发逻辑的核心)
+    "DOMAIN-SUFFIX,myqcloud.com.cn",    # 腾讯云备份后缀
+
+# --- 阿里系 CDN (国内 App 极其通用的字体/图标库) ---
+    "DOMAIN-SUFFIX,alicdn.com",         # 阿里公共 CDN (at.alicdn.com 常用于图标字体)
+
+# --- 其它第三方服务 (微信内嵌套的小程序/网页接口) ---
+    "DOMAIN-SUFFIX,jianfannet.com",     # 简饭网络 (api.jianfannet.com)
 
 # --- 微信/腾讯直播与实时流 (视频号直播、语音通话) ---
     "DOMAIN-SUFFIX,tlivesource.com",
