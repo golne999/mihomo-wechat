@@ -17,7 +17,13 @@ custom_rules = [
     "DOMAIN-SUFFIX,qlogo.cn",
     "DOMAIN-SUFFIX,qlog.cn",
     "DOMAIN-SUFFIX,wxqcloud.qq.com.cn",
-    
+    "DOMAIN-SUFFIX,video.qq.com",        # 视频号、腾讯视频全家桶
+    "DOMAIN-SUFFIX,gtimg.cn",            # 微信静态资源主干 (朋友圈、小程序图片)
+    "DOMAIN-SUFFIX,gtimg.com",           # 腾讯资源主干
+    "DOMAIN-SUFFIX,weixin.qq.com",       # 微信最核心域名 (通讯、登录)
+    "DOMAIN-SUFFIX,servicewechat.com",   # 小程序核心
+    "DOMAIN-SUFFIX,tencent-cloud.net",   # 腾讯云节点加速
+    "DOMAIN-SUFFIX,tenpay.com",
     
     # 腾讯通用依赖
     "DOMAIN-SUFFIX,weixin.qq.com",
