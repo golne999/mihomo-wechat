@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v4 # 修正了原配置中的一个小错误
+        uses: actions/setup-python@v6 # 修正了原配置中的一个小错误
         with:
           python-version: '3.x'
 
@@ -27,7 +27,7 @@ jobs:
         run: python convert.py
 
       - name: Commit and Push if changed
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Routine Update: WeChat.list" # 更新提交信息
           file_pattern: 'WeChat.list' # 必须改为 .list，或者用 '*.list' 匹配所有
