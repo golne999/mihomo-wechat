@@ -219,7 +219,7 @@ IP-CIDR,43.164.128.0/17,no-resolve
 IP-CIDR,43.164.64.0/19,no-resolve
 IP-CIDR,43.165.0.0/16,no-resolve
 IP-CIDR,43.166.0.0/15,no-resolve
-IP-CIDR,43.172.128.0/19,no-resolve
+IP-CIDR,43.172.128.0/18,no-resolve
 IP-CIDR,43.172.192.0/19,no-resolve
 IP-CIDR,43.172.64.0/18,no-resolve
 IP-CIDR,43.173.0.0/16,no-resolve
