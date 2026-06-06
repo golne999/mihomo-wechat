@@ -225,7 +225,8 @@ IP-CIDR,43.161.0.0/18,no-resolve
 IP-CIDR,43.161.128.0/17,no-resolve
 IP-CIDR,43.162.0.0/15,no-resolve
 IP-CIDR,43.164.0.0/18,no-resolve
-IP-CIDR,43.164.108.0/22,no-resolve
+IP-CIDR,43.164.100.0/22,no-resolve
+IP-CIDR,43.164.104.0/21,no-resolve
 IP-CIDR,43.164.112.0/20,no-resolve
 IP-CIDR,43.164.128.0/17,no-resolve
 IP-CIDR,43.164.64.0/19,no-resolve
